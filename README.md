@@ -1,12 +1,18 @@
-# Forcelate Test Task
+# forcelate-test-task
 
-<video src="111.mp4" width="320" height="200" controls preload></video>
+Forcelate Test Task
 
-Technology stack:
-React.js
+### Demo:
+<p>
+	<img src="https://github.com/maslovskiy/Forcelate-Test/blob/master/111.mp4" alt=""/>
+</p>
 
+### Technology stack:
+* React.js
 
-Build Setup
+## Build Setup
+
+``` bash
 # install dependencies
 npm install
 
@@ -18,4 +24,6 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-For a detailed explanation on how things work, check out the guide and docs for react.
+```
+
+For a detailed explanation on how things work, check out the [docs](https://reactjs.org/docs/getting-started.html) and [tutorials for React](https://reactjs.org/tutorial/tutorial.html).
