@@ -4,7 +4,7 @@ Forcelate Test Task
 
 ### Demo:
 <p>
-	<img src="https://github.com/maslovskiy/Forcelate-Test/blob/master/111.mp4" alt=""/>
+	<img src="https://github.com/maslovskiy/Forcelate-Test/blob/master/111.gif" alt=""/>
 </p>
 
 ### Technology stack:
