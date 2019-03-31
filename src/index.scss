@@ -1,0 +1,141 @@
+html,
+body {
+    background-color: #c5daec;
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: 500;
+}
+.App {
+    max-width: 100%;
+    padding: 25px 35px;
+}
+
+table {
+    width: 100%;
+    background-color: #454345;
+    font-size: 14px;
+}
+
+tbody {
+    tr {
+        background-color: white;
+    }
+}
+
+th {
+    font-weight: 500;
+    color: #fff;
+    // border: 1px solid #fff;
+}
+
+
+.f-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    width: 90vw;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all .3s linear;
+    padding: 30px 15px;
+
+    input {
+        flex-grow: 1;
+        height: 50px;
+        padding: 10px 15px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__submit {
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    &--opened {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+    }
+}
+
+.f-btn {
+    padding: 8px 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #2c3e50;
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    span{
+        margin-right: 5px;
+    }
+}
+
+.f-icon {
+    font-size: 22px;
+    &--green {
+        color: #3ec816;
+    }
+
+    &--red {
+        color: #d84b2f;
+    }
+
+    &--grey {
+        color: #a19fa1;
+    }
+}
+
+// main
+
+.f-section{
+    &__header-title{
+        margin: 20px 0 10px;
+        font-weight: 400;
+    }
+    &__main-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__main-controls{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        button:last-of-type{
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .App{
+        padding: 20px 5px;
+    }
+}
+@media (max-width: 768px){
+    .f-section__table{
+        overflow: hidden;
+    }
+    .table{
+        overflow: scroll;
+    }
+}
